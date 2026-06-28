@@ -6,7 +6,7 @@ pkg update && pkg upgrade -y
 echo "Checking storage access..."
 
 if [ -d "$HOME/storage" ]; then
-    echo "✓ Storage already configured."
+    echo "Storage already configured."
 else
     echo "Setting up storage..."
     termux-setup-storage
@@ -17,9 +17,9 @@ else
     read
 
     if [ -d "$HOME/storage" ]; then
-        echo "✓ Storage configured successfully."
+        echo "Storage configured successfully."
     else
-        echo "✗ Storage setup failed."
+        echo "Storage setup failed."
         exit 1
     fi
 fi
