@@ -1,7 +1,0 @@
-bootstrap/assets/com.termux.api.apk filter=lfs diff=lfs merge=lfs -text
-bootstrap/assets/com.termux.apk filter=lfs diff=lfs merge=lfs -text
-bootstrap/assets/com.termux.gui.apk filter=lfs diff=lfs merge=lfs -text
-bootstrap/assets/com.termux.styling.apk filter=lfs diff=lfs merge=lfs -text
-bootstrap/assets/com.termux.tasker.apk filter=lfs diff=lfs merge=lfs -text
-bootstrap/assets/tailscale1.62.0.apk filter=lfs diff=lfs merge=lfs -text
-*.apk filter=lfs diff=lfs merge=lfs -text
