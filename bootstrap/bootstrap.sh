@@ -9,6 +9,7 @@ chmod +x ./04-directories.sh
 chmod +x ./05-config.sh
 chmod +x ./06-services.sh
 chmod +x ./07-apps.sh
+chmod +x ./08-opt-packages.sh
 
 run_step(){
     echo 
@@ -22,5 +23,6 @@ run_step 04-directories.sh
 run_step 05-config.sh
 run_step 06-services.sh
 run_step 07-apps.sh
+run_step 08-opt-packages.sh
 
 echo "Bootstrap process complete!"
