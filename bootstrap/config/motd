@@ -1,0 +1,3 @@
+cat ~/.ascii/ascii.txt
+echo
+echo "Battery: $(termux-battery-status | jq -r '.percentage')%"

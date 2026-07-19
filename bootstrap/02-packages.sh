@@ -25,4 +25,5 @@ fastfetch \
 starship \
 cronie \
 bat \
+jq \
 

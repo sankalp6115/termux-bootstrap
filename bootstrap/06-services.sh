@@ -2,7 +2,6 @@
 set -e
 echo "Starting services..."
 
-# Initialize termux-services for the current script session
 if [ -f "$PREFIX/etc/profile.d/start-services.sh" ]; then
     source "$PREFIX/etc/profile.d/start-services.sh"
 fi
