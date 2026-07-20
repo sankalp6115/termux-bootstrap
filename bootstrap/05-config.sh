@@ -17,6 +17,7 @@ cp -f config/ascii_art.txt ~/.ascii/ 2>/dev/null || echo "Warning: ascii_art.txt
 
 cp -f config/sshd_config $PREFIX/etc/ssh/ 2>/dev/null || echo "Warning: sshd_config not copied (permission issue?)"
 cp -f config/motd $PREFIX/etc/ 2>/dev/null || echo "Warning: motd not copied (permission issue?)"
+cp -f config/motd.sh $PREFIX/etc/ 2>/dev/null || echo "Warning: motd not copied (permission issue?)"
 
 cp -f assets/audio/login.mp3 ~/system_scripts 2>/dev/null || echo "Warning: login.mp3 not found"
 cp -f config/ssh_login.sh ~/system_scripts 2>/dev/null || echo "Warning: ssh_login.sh not found"
