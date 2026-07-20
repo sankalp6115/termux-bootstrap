@@ -3,7 +3,6 @@ eval "$(starship init zsh)"
 alias python='python3.11'
 alias pip='pip3.11'
 
-
 if [[ -o interactive && -n "$SSH_CLIENT" ]]; then
     read -r client_ip client_port server_port <<< "$SSH_CLIENT"
 
@@ -18,7 +17,7 @@ if [[ -o interactive && -n "$SSH_CLIENT" ]]; then
     printf '[%s] %s:%s logged in\n' \
         "$(date '+%Y-%m-%d %H:%M:%S')" \
         "$client_ip" \
-        "$client_port" >> "$HOME/log/ssh_login.log"
+        "$client_port" >> "$HOME/logs/ssh_login.log"
 fi
 
 # Trash function
@@ -45,3 +44,4 @@ empty-trash() {
 
 alias rm='trash'
 
+bash $PREFIX/etc/motd.sh

@@ -11,6 +11,9 @@ chmod +x ./06-services.sh
 chmod +x ./07-apps.sh
 chmod +x ./08-opt-packages.sh
 
+chmod +x $PREFIX/etc/motd.sh
+
+
 run_step(){
     echo 
     echo "======= $1 ======="
