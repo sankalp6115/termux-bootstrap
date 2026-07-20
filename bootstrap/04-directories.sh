@@ -8,4 +8,5 @@ mkdir -p \
 ~/logs/ \
 ~/media/ \
 ~/services/ \
-~/system_scripts/
+~/system_scripts/ \
+~/.ascii

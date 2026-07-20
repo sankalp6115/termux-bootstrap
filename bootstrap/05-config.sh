@@ -12,10 +12,10 @@ cp config/.gitconfig ~/ 2>/dev/null || true
 cp config/.vimrc ~/ 2>/dev/null || true
 cp config/.nanorc ~/ 2>/dev/null || true
 cp config/aliases ~/ 2>/dev/null || true
+cp config/ascii_art.txt ~/.ascii/ 2>/dev/null || true
 
 cp config/sshd_config $PREFIX/etc/ssh/ 2>/dev/null || true
 cp config/motd $PREFIX/etc/ 2>/dev/null || true
-cp config/ascii_art.txt $PREFIX/home/.ascii/ 2>/dev/null || true
 
 cp assets/audio/login.mp3 ~/system_scripts
 cp config/ssh_login.sh ~/system_scripts
