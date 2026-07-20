@@ -26,4 +26,3 @@ starship \
 cronie \
 bat \
 jq
-

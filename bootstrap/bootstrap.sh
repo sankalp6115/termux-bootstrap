@@ -11,7 +11,9 @@ chmod +x ./06-services.sh
 chmod +x ./07-apps.sh
 chmod +x ./08-opt-packages.sh
 
-chmod +x $PREFIX/etc/motd.sh
+if [ -f "$PREFIX/etc/motd.sh" ]; then
+    chmod +x "$PREFIX/etc/motd.sh"
+fi
 
 
 run_step(){

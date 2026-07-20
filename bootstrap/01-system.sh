@@ -2,7 +2,7 @@
 set -e
 
 echo "Download and install APKs from https://github.com/sankalp6115/termux-bootstrap/releases before starting setup."
-read -p "Press [Enter] to continue or [Ctrl + C] to exit."
+read -t 30 -p "Press [Enter] to continue or [Ctrl + C] to exit." || true
 
 pkg update && pkg upgrade -y
 
